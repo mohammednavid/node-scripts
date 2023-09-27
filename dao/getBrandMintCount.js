@@ -1,5 +1,5 @@
-var dishes = require("./AllDishes.json");
-const dishesContract = require("./contract/dishesContract");
+var dishes = require("../AllDishes.json");
+const dishesContract = require("../contract/dishesContract");
 
 async function getBrandMintCount() {
   const brand = "MAGGI";
